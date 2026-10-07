@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.artop.ecuc.xtendxpand"
+      label="%featureName"
+      version="4.13.0.201912171516"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.artop.ecuc.gautosar.xtend.typesystem"
+         download-size="131"
+         install-size="243"
+         version="4.13.0.201912171516"
+         unpack="false"/>
+
+   <plugin
+         id="org.artop.ecuc.xtend.typesystem.ui"
+         download-size="8"
+         install-size="11"
+         version="4.13.0.201912171516"
+         unpack="false"/>
+
+   <plugin
+         id="org.artop.ecuc.gautosar.codegen.xpand.ui"
+         download-size="85"
+         install-size="161"
+         version="4.13.0.201912171516"
+         unpack="false"/>
+
+   <plugin
+         id="org.artop.ecuc.autosar3x.xtend.typesystem"
+         download-size="27"
+         install-size="45"
+         version="4.13.0.201912171516"
+         unpack="false"/>
+
+   <plugin
+         id="org.artop.ecuc.autosar3x.codegen.xpand.ui"
+         download-size="14"
+         install-size="22"
+         version="4.13.0.201912171516"
+         unpack="false"/>
+
+   <plugin
+         id="org.artop.ecuc.autosar40.xtend.typesystem"
+         download-size="40"
+         install-size="72"
+         version="4.13.0.201912171516"
+         unpack="false"/>
+
+   <plugin
+         id="org.artop.ecuc.autosar40.codegen.xpand.ui"
+         download-size="14"
+         install-size="23"
+         version="4.13.0.201912171516"
+         unpack="false"/>
+
+</feature>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.artop.ecuc.examples.xtendxpand"
+      label="%featureName"
+      version="4.13.0.201912171516"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.artop.ecuc.examples.autosar40.codegen.xpand"
+         download-size="4"
+         install-size="5"
+         version="4.13.0.201912171516"
+         unpack="false"/>
+
+   <plugin
+         id="org.artop.ecuc.examples.gautosar.codegen.xpand.headless"
+         download-size="8"
+         install-size="12"
+         version="4.13.0.201912171516"
+         unpack="false"/>
+
+   <plugin
+         id="org.artop.ecuc.examples.gautosar.codegen.xpand.ui"
+         download-size="8"
+         install-size="10"
+         version="4.13.0.201912171516"
+         unpack="false"/>
+
+   <plugin
+         id="org.artop.ecuc.examples.autosar40.transform.xtend"
+         download-size="4"
+         install-size="3"
+         version="4.13.0.201912171516"
+         unpack="false"/>
+
+   <plugin
+         id="org.artop.ecuc.examples.autosar40.transform.xtend.ui"
+         download-size="11"
+         install-size="16"
+         version="4.13.0.201912171516"
+         unpack="false"/>
+         
+   <plugin
+         id="org.artop.ecuc.examples.autosar40.codegen.xpand.source"
+         download-size="3"
+         install-size="4"
+         version="4.13.0.201912171516"
+         unpack="false"/>
+
+   <plugin
+         id="org.artop.ecuc.examples.gautosar.codegen.xpand.headless.source"
+         download-size="4"
+         install-size="8"
+         version="4.13.0.201912171516"
+         unpack="false"/>
+
+   <plugin
+         id="org.artop.ecuc.examples.gautosar.codegen.xpand.ui.source"
+         download-size="4"
+         install-size="3"
+         version="4.13.0.201912171516"
+         unpack="false"/>
+
+   <plugin
+         id="org.artop.ecuc.examples.autosar40.transform.xtend.source"
+         download-size="3"
+         install-size="2"
+         version="4.13.0.201912171516"
+         unpack="false"/>
+
+   <plugin
+         id="org.artop.ecuc.examples.autosar40.transform.xtend.ui.source"
+         download-size="8"
+         install-size="12"
+         version="4.13.0.201912171516"
+         unpack="false"/>
+
+</feature>

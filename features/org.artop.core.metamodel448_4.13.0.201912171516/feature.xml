@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.artop.core.metamodel448"
+      label="%featureName"
+      version="4.13.0.201912171516"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.artop.aal.autosar448"
+         download-size="26239"
+         install-size="132278"
+         version="4.13.0.201912171516"/>
+
+   <plugin
+         id="org.artop.aal.autosar448.edit"
+         download-size="7521"
+         install-size="18836"
+         version="4.13.0.201912171516"/>
+
+   <plugin
+         id="org.artop.aal.autosar448.services"
+         download-size="64"
+         install-size="116"
+         version="4.13.0.201912171516"
+         unpack="false"/>
+
+</feature>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.artop.demonstrator"
+      label="%featureName"
+      version="4.13.0.201912171516"
+      provider-name="%providerName"
+      plugin="org.artop.demonstrator">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <includes
+         id="org.artop"
+         version="4.13.0.201912171516"/>
+
+   <includes
+         id="org.artop.examples"
+         version="4.13.0.201912171516"/>
+
+   <includes
+         id="org.artop.thirdparty"
+         version="4.13.0.201912171516"/>
+
+</feature>

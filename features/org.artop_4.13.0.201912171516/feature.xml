@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.artop"
+      label="%featureName"
+      version="4.13.0.201912171516"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <includes
+         id="org.artop.base"
+         version="4.13.0.201912171516"/>
+
+   <includes
+         id="org.artop.core.metamodel215"
+         version="4.13.0.201912171516"/>
+
+   <includes
+         id="org.artop.core.metamodel322"
+         version="4.13.0.201912171516"/>
+
+   <includes
+         id="org.artop.validation322"
+         version="4.13.0.201912171516"/>
+
+   <includes
+         id="org.artop.core.metamodel448"
+         version="4.13.0.201912171516"/>
+
+</feature>
